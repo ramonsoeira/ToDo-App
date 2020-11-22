@@ -1,6 +1,6 @@
 const Todo = require("./todo");
 
-Todo.methods = ["get", "post", "put", "delete"];  //Set crud operations
+Todo.methods (["get", "post", "put", "delete"]);  //Set crud operations
 
 Todo.updateOptions({new: true, runValidators: true}); 
 // for default update not validates forms and this responses will be returned unaltered data. 
